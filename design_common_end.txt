@@ -1,8 +1,0 @@
-design:
-  1. get the length of the two argument arrays, as lengtha and lengthb
-  2. if either of lengtha or lengthb is not larger than 0, return False
-  3. else get the first element of each array via [:1], and compare, if
-       equals, return True, else return False
-  4. else get the last element of each array via [-1:], and compare, if
-       equals, return True, else return False
-  5. return false before the function ends, to make any other cases as False

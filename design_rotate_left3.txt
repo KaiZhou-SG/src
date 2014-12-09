@@ -1,9 +1,0 @@
-design:
-  1. get the length of the array nums, as length
-  2. if length == 0, return []
-  3. if length > 0, define i = 0, j = 0, tmp = 0
-  4. use i = loop through range(0, length)
-  5. for each loop, do a swap:
-       tmp = nums[i]
-       nums[i] = nums[length - i]
-       nums[length - i] = tmp
